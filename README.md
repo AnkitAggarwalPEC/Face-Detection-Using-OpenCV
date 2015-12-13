@@ -3,6 +3,11 @@
 #Build Process
 For building process in linux-
 
-1) cmake .
-2) make
-3) ./DetectFace
+Modify the path for the cascade files according to your directory structure
+Change the name of image in imread
+
+cmake .
+make
+./DetectFace
+
+
