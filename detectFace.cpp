@@ -18,7 +18,7 @@ int main()
     imshow("Image Read",img);
     
     vector<Rect> Faces;
-    cascade->detectMultiScale( img,Faces,1.5,2);
+    cascade->detectMultiScale( img,Faces,1.1,2);
     cout <<"Number of Faces Detected is";
     cout << Faces.size() <<endl;
     
